@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Image from '../assets/hero.png';
-import { FaGithub, FaLinkedin, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -63,7 +63,7 @@ const Banner = () => {
               <Link to='contact' smooth={true} spy={true}>
                 <button className='btn btn-lg'>Contact me</button>
               </Link>
-              <div class='cv-btn'>
+              {/* <div class='cv-btn'>
                 <label class='label'>
                   <input class='input' type='checkbox' />
                   <span class='circle'>
@@ -101,7 +101,7 @@ const Banner = () => {
                     </svg>
                   </a>
                 </label>
-              </div>
+              </div> */}
             </motion.div>
             <motion.div
               variants={fadeIn('right', 0.7)}
@@ -111,22 +111,25 @@ const Banner = () => {
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
               <a
-                href='#'
+                href='https://www.linkedin.com/in/elvedin-odobasic-b67ab2264/'
                 className='hover:-translate-y-[1px] transition ease-in-out '
+                target='_blank'
               >
                 <FaLinkedin />
               </a>
               <a
-                href='#'
+                href='https://github.com/ElvedinO'
                 className='hover:-translate-y-[1px] transition ease-in-out '
+                target='_blank'
               >
                 <FaGithub />
               </a>
               <a
-                href='#'
+                href='https://twitter.com/v33doo'
                 className='hover:-translate-y-[1px] transition ease-in-out '
+                target='_blank'
               >
-                <FaDribbble />
+                <FaTwitter />
               </a>
             </motion.div>
           </div>

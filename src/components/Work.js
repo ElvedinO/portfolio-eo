@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 //img
-import Img1 from '../assets/portfolio-img1.png';
-import Img2 from '../assets/portfolio-img2.png';
-import Img3 from '../assets/portfolio-img3.png';
+import Img1 from '../assets/portfolio-img1.jpeg';
+import Img2 from '../assets/portfolio-img2.jpeg';
+import Img3 from '../assets/portfolio-img3.jpeg';
 
 const Work = () => {
   return (
@@ -39,19 +39,19 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='group relative overflow-hidden border-2 border-cyan-900  rounded-3xl  rounded-tr-none'
+            className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <div className='lg:group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img
               className='group-hover:scale-125 transition-all duration-500 '
               src={Img1}
               alt=''
             />
             <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>
+              <span className='text-gradient'>COMING SOON</span>
             </div>
             <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>
 
@@ -61,7 +61,7 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='group relative overflow-hidden border-2 border-cyan-900   rounded-3xl  rounded-tr-none'
+            className='group relative overflow-hidden border-2 border-white/40   rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img
@@ -70,10 +70,10 @@ const Work = () => {
               alt=''
             />
             <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>
+              <span className='text-gradient'>COMING SOON</span>
             </div>
             <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>
 
@@ -83,7 +83,7 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='group relative overflow-hidden border-2 border-cyan-900  rounded-3xl  rounded-tr-none'
+            className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img
@@ -92,10 +92,10 @@ const Work = () => {
               alt=''
             />
             <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>
+              <span className='text-gradient'>COMING SOON</span>
             </div>
             <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>
         </div>
