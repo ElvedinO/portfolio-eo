@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Image from '../assets/hero.png';
+import Image from '../assets/hero.jpg';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
-import CV from '../assets/my_cv.pdf';
+// import CV from '../assets/my_cv.pdf';
 const Banner = () => {
   return (
     <section
@@ -21,7 +21,7 @@ const Banner = () => {
               variants={fadeIn('right', 0.3)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='text-[55px] font-bold leading-[0.8] lg:text-[110px] '
             >
               ELVEDIN <span>ODOBASIC</span>
@@ -30,7 +30,7 @@ const Banner = () => {
               variants={fadeIn('right', 0.4)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='mb-6 tex-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
             >
               <span className='mr-4 text-white'>I am a</span>
@@ -46,7 +46,7 @@ const Banner = () => {
               variants={fadeIn('right', 0.5)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
               Empowering businesses with code and creativity
@@ -57,7 +57,7 @@ const Banner = () => {
               variants={fadeIn('right', 0.6)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
               <Link to='contact' smooth={true} spy={true}>
@@ -107,7 +107,7 @@ const Banner = () => {
               variants={fadeIn('right', 0.7)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
               <a
@@ -138,7 +138,7 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.7 }}
             className='mix-blend-lighten hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] relative'
           >
             <img src={Image} alt='' />

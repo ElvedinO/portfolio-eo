@@ -20,7 +20,7 @@ const About = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className=' lg:flex-1 bg-about bg-contain bg-no-repeat h-1/4 lg:h-[640px] mix-blend-lighten bg-top lg:mt-20'
           ></motion.div>
           {/* text */}
@@ -28,7 +28,7 @@ const About = () => {
             variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 flex flex-col'
           >
             <h2 className='h2 text-accent'>About me.</h2>

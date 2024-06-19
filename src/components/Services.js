@@ -63,7 +63,7 @@ const Services = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 mb-12 lg:mb-0'
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
@@ -100,7 +100,7 @@ const Services = () => {
             variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1'
           >
             <div>

@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 //img
-import Img1 from '../assets/portfolio-img1.jpeg';
-import Img2 from '../assets/portfolio-img2.jpeg';
-import Img3 from '../assets/portfolio-img3.jpeg';
+import Img1 from '../assets/portfolio-img1.jpg';
+import Img2 from '../assets/portfolio-img2.jpg';
+import Img3 from '../assets/portfolio-img3.jpg';
 
 const Work = () => {
   return (
@@ -19,7 +19,7 @@ const Work = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='mb-10 lg:mb-0'
           >
             <h2 className='h2 leading-tight text-accent'>
@@ -38,7 +38,7 @@ const Work = () => {
             variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
@@ -60,7 +60,7 @@ const Work = () => {
             variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40   rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
@@ -82,7 +82,7 @@ const Work = () => {
             variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>

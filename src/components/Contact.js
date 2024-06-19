@@ -53,7 +53,7 @@ const Contact = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 flex justify-start items-center'
           >
             <div>
@@ -71,7 +71,7 @@ const Contact = () => {
             variants={fadeIn('left', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 rounded-3xl flex flex-col gap-y-8 py-16 px-6 items-start border-l-2 border-r-2 border-white/10 '
           >
             <div class='relative w-full '>
@@ -116,7 +116,7 @@ const Contact = () => {
             {successMessage && (
               <motion.div
                 variants={fadeIn('right', 0.3)}
-                viewport={{ once: false, amount: 0.3 }}
+                viewport={{ once: true, amount: 0.3 }}
                 exit={{ opacity: 0 }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
