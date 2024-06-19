@@ -41,16 +41,16 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
-            <div className='lg:group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
             <img
               className='group-hover:scale-125 transition-all duration-500 '
               src={Img1}
               alt=''
             />
-            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
+            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-40'>
               <span className='text-gradient'>COMING SOON</span>
             </div>
-            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
+            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-40'>
               <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>
@@ -63,16 +63,16 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40   rounded-3xl  rounded-tr-none'
           >
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
             <img
               className='group-hover:scale-125 transition-all duration-500'
               src={Img2}
               alt=''
             />
-            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
+            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-40'>
               <span className='text-gradient'>COMING SOON</span>
             </div>
-            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
+            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-40'>
               <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>
@@ -85,16 +85,16 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
             <img
               className='group-hover:scale-125 transition-all duration-500'
               src={Img3}
               alt=''
             />
-            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-50'>
+            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-40'>
               <span className='text-gradient'>COMING SOON</span>
             </div>
-            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-50'>
+            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-40'>
               <span className='text-3xl text-white'>Coming Soon</span>
             </div>
           </motion.div>

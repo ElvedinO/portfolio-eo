@@ -11,7 +11,7 @@ const Preloader = ({ setLoading }) => {
   }, [setLoading]);
 
   return (
-    <div class='relative flex justify-center items-center h-screen bg-site bg-no-repeat bg-cover'>
+    <div class='relative flex justify-center items-center h-screen bg-[#002250] bg-no-repeat bg-cover'>
       <div class='preloader-spinner absolute'>
         <div class='spinner1'></div>
       </div>
