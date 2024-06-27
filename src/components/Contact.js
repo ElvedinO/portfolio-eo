@@ -82,7 +82,10 @@ const Contact = () => {
                 placeholder=''
                 class='peer h-full w-full border-b bg-transparent py-3 outline-0 '
               />
-              <label class='pointer-events-none absolute left-0 -top-4  h-full w-full transition-all after:absolute after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300  peer-placeholder-shown:leading-[4] peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '>
+              <label
+                for='email'
+                class='pointer-events-none absolute left-0 -top-4  h-full w-full transition-all after:absolute after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300  peer-placeholder-shown:leading-[4] peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '
+              >
                 Your e-mail
               </label>
             </div>
@@ -95,7 +98,10 @@ const Contact = () => {
                 placeholder=''
                 class='peer h-full w-full border-b bg-transparent py-3 outline-0'
               />
-              <label class='pointer-events-none absolute left-0 -top-4  h-full w-full  transition-all after:absolute after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300 peer-placeholder-shown:leading-[4]  peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '>
+              <label
+                for='name'
+                class='pointer-events-none absolute left-0 -top-4  h-full w-full  transition-all after:absolute after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300 peer-placeholder-shown:leading-[4]  peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '
+              >
                 Your name
               </label>
             </div>
@@ -106,7 +112,10 @@ const Contact = () => {
                 name='message'
                 required
               ></textarea>
-              <label class='pointer-events-none absolute left-0 -top-4  h-full w-full transition-all after:absolute after:bottom-[-0.35rem] lg:after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300 peer-placeholder-shown:leading-[4]  peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '>
+              <label
+                for='message'
+                class='pointer-events-none absolute left-0 -top-4  h-full w-full transition-all after:absolute after:bottom-[-0.35rem] lg:after:-bottom-4 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-accent after:transition-transform after:duration-300 peer-placeholder-shown:leading-[4]  peer-focus:leading-[1.75] peer-focus:text-accent peer-focus:after:scale-x-100 peer-focus:after:border-accent '
+              >
                 Your message
               </label>
             </div>
