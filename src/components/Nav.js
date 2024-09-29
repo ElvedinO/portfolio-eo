@@ -11,6 +11,7 @@ const Nav = () => {
         {/* nav inner*/}
         <div className='w-full bg-black/20 h-[70px] backdrop-blur-2xl rounded-full  max-w-[460px] mx-auto px-5 flex justify-around items-center text-2xl text-white/50 hover:*:text-[#fff] transition-all *:duration-300 mb-4 lg:mb-0 '>
           <Link
+            href='#'
             to='home'
             activeClass='active'
             smooth={true}
@@ -21,6 +22,7 @@ const Nav = () => {
             <BiHomeAlt className=' ' />
           </Link>
           <Link
+            href='#'
             to='about'
             activeClass='active'
             smooth={true}
@@ -30,6 +32,7 @@ const Nav = () => {
             <BiUser />
           </Link>
           <Link
+            href='#'
             to='services'
             activeClass='active'
             smooth={true}
@@ -39,6 +42,7 @@ const Nav = () => {
             <BsClipboardData />
           </Link>
           <Link
+            href='#'
             to='work'
             activeClass='active'
             smooth={true}
@@ -48,6 +52,7 @@ const Nav = () => {
             <BsBriefcase />
           </Link>
           <Link
+            href='#'
             to='contact'
             activeClass='active'
             smooth={true}

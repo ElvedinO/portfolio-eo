@@ -5,11 +5,16 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 //img
-import Img1 from '../assets/portfolio-img1.jpg';
+import Img1 from '../assets/portfolio-img1.webp';
 import Img2 from '../assets/portfolio-img2.jpg';
 import Img3 from '../assets/portfolio-img3.jpg';
 
 const Work = () => {
+  const handleClick = (myLink) => (event) => {
+    event.preventDefault(); // Prevent default link behavior
+    window.open(myLink, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <section className='section' id='work'>
       <div className='container mx-auto'>
@@ -41,17 +46,20 @@ const Work = () => {
             viewport={{ once: true, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
           >
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
+            <div
+              onClick={handleClick('https://ve-comm.netlify.app/')}
+              className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'
+            ></div>
             <img
               className='group-hover:scale-125 transition-all duration-500 '
               src={Img1}
               alt=''
             />
             <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-40'>
-              <span className='text-gradient'>COMING SOON</span>
+              <span className='text-gradient'>Organic Store</span>
             </div>
             <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-40'>
-              <span className='text-3xl text-white'>Coming Soon</span>
+              <span className='text-3xl text-white'>E-Commerce</span>
             </div>
           </motion.div>
 

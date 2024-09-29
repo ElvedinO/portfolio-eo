@@ -21,8 +21,6 @@
 
 /*Popup message on icon hover*/
 
-
-
 .popup-message {
   position: fixed;
   top: 20px;
@@ -63,7 +61,7 @@ input:-webkit-autofill {
   filter: blur(10px);
 }
 
-CV Download Button .cv-btn {
+/* CV Download Button .cv-btn {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -277,7 +275,7 @@ CV Download Button .cv-btn {
     visibility: visible;
     right: 4px;
   }
-}
+} */
 
 @keyframes spinning {
   to {

@@ -9,11 +9,11 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo*/}
-          <a href='https://elvedino.netlify.app/'>
+          <a href='https://elvedino.netlify.app/' alt='logo'>
             <img className='w-14 lg:w-20' src={Logo} alt='' />
           </a>
           {/* button */}
-          <Link to='contact' smooth={true} spy={true}>
+          <Link href='#' to='contact' smooth={true} spy={true}>
             <button className='btn btn-sm'>Work with me</button>
           </Link>
         </div>

@@ -60,7 +60,7 @@ const Banner = () => {
               viewport={{ once: true, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
-              <Link to='contact' smooth={true} spy={true}>
+              <Link href='#' to='contact' smooth={true} spy={true}>
                 <button className='btn btn-lg'>Contact me</button>
               </Link>
               {/* <div class='cv-btn'>
@@ -114,6 +114,8 @@ const Banner = () => {
                 href='https://www.linkedin.com/in/elvedin-odobasic-b67ab2264/'
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
+                rel='noreferrer'
+                alt='links-to-social'
               >
                 <FaLinkedin />
               </a>
@@ -121,6 +123,8 @@ const Banner = () => {
                 href='https://github.com/ElvedinO'
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
+                rel='noreferrer'
+                alt='links-to-social'
               >
                 <FaGithub />
               </a>
@@ -128,6 +132,8 @@ const Banner = () => {
                 href='https://twitter.com/v33doo'
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
+                rel='noreferrer'
+                alt='links-to-social'
               >
                 <FaTwitter />
               </a>

@@ -71,7 +71,7 @@ const Services = () => {
               Crafting custom web apps using modern tools like React and
               Tailwind CSS.
             </h3>
-            <Link to='work' smooth={true} spy={true}>
+            <Link href='#' to='work' smooth={true} spy={true}>
               <button className='btn btn-sm'>See my work</button>
             </Link>
             <div className='hidden mt-10 lg:mt-20 lg:grid grid-cols-3 lg:gap-y-20 align-middle'>
