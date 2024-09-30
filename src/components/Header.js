@@ -9,7 +9,11 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo*/}
-          <a href='https://elvedino.netlify.app/' alt='logo'>
+          <a
+            href='https://elvedino.netlify.app/'
+            alt='home'
+            aria-label='Logo of the site'
+          >
             <img className='w-14 lg:w-20' src={Logo} alt='' />
           </a>
           {/* button */}

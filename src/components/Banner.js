@@ -115,7 +115,8 @@ const Banner = () => {
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
                 rel='noreferrer'
-                alt='links-to-social'
+                alt='linkedin'
+                aria-label='Read more about Elvedin on LinkedIn'
               >
                 <FaLinkedin />
               </a>
@@ -124,7 +125,8 @@ const Banner = () => {
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
                 rel='noreferrer'
-                alt='links-to-social'
+                alt='github'
+                aria-label='Read more about Elvedin on Github'
               >
                 <FaGithub />
               </a>
@@ -133,7 +135,8 @@ const Banner = () => {
                 className='hover:-translate-y-[1px] transition ease-in-out '
                 target='_blank'
                 rel='noreferrer'
-                alt='links-to-social'
+                alt='twitter'
+                aria-label='Read more about Elvedin on Twitter'
               >
                 <FaTwitter />
               </a>
@@ -147,7 +150,7 @@ const Banner = () => {
             viewport={{ once: true, amount: 0.7 }}
             className='mix-blend-lighten hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] relative'
           >
-            <img src={Image} alt='' />
+            <img src={Image} alt='hero' />
 
             {/*rotating animation*/}
             <motion.svg

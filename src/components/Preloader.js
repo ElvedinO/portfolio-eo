@@ -5,7 +5,7 @@ const Preloader = ({ setLoading }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, [setLoading]);
@@ -15,7 +15,12 @@ const Preloader = ({ setLoading }) => {
       <div class='preloader-spinner absolute'>
         <div class='spinner1'></div>
       </div>
-      <img src={Logo} class=' w-24 animate-pulse ' />
+      <img
+        fetchpriority='high'
+        src={Logo}
+        class=' w-24 animate-pulse '
+        alt='preloader-img'
+      />
     </div>
   );
 };

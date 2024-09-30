@@ -48,7 +48,7 @@ const Work = () => {
           >
             <div
               onClick={handleClick('https://ve-comm.netlify.app/')}
-              className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'
+              className='group-hover:bg-black/70 small w-full h-full absolute z-30 transition-all duration-300'
             ></div>
             <img
               className='group-hover:scale-125 transition-all duration-500 '
@@ -71,7 +71,7 @@ const Work = () => {
             viewport={{ once: true, amount: 0.3 }}
             className='group relative overflow-hidden border-2 border-white/40   rounded-3xl  rounded-tr-none'
           >
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-30 transition-all duration-300'></div>
+            <div className='group-hover:bg-black/70  w-full h-full absolute z-30 transition-all duration-300'></div>
             <img
               className='group-hover:scale-125 transition-all duration-500'
               src={Img2}

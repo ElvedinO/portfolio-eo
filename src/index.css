@@ -283,6 +283,12 @@ input:-webkit-autofill {
   }
 }
 
+@media (max-width: 480px) {
+  .small {
+    background-color: rgb(0 0 0 / 0.7);
+  }
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
