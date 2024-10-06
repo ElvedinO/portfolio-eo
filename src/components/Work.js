@@ -44,22 +44,39 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.3 }}
-            className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none'
+            className='group relative overflow-hidden border-2 border-white/40  rounded-3xl  rounded-tr-none cursor-pointer'
           >
             <div
-              onClick={handleClick('https://ve-comm.netlify.app/')}
-              className='group-hover:bg-black/70 small w-full h-full absolute z-30 transition-all duration-300'
+              onClick={handleClick('https://organiclife.netlify.app/')}
+              className='group-hover:bg-black/85 small w-full h-full absolute z-30 transition-all duration-300'
             ></div>
             <img
               className='group-hover:scale-125 transition-all duration-500 '
               src={Img1}
               alt=''
             />
-            <div className='absolute bottom-16 lg:-bottom-full left-12 lg:group-hover:bottom-24 lg:transition-all lg:duration-500 z-40'>
+            <div className='absolute bottom-24 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-28 lg:transition-all lg:duration-500 z-40'>
               <span className='text-gradient'>Organic Store</span>
             </div>
-            <div className='absolute bottom-8 lg:-bottom-full left-12 lg:group-hover:bottom-14 lg:transition-all lg:duration-700 z-40'>
+            <div className='absolute bottom-16 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-20 lg:transition-all lg:duration-700 z-40'>
               <span className='text-3xl text-white'>E-Commerce</span>
+            </div>
+            <div className=' absolute bottom-3 lg:-bottom-full left-2 lg:left-12  lg:gap-4 lg:group-hover:bottom-7 lg:transition-all lg:duration-1000 z-40 flex gap-2'>
+              <span className='bg-[#58C4DC] px-3 lg:px-4 rounded-full rounded-tr-none text-white'>
+                React
+              </span>
+              <span className='bg-[#CE6B9C] px-3 rounded-full rounded-tr-none text-white'>
+                Sass
+              </span>
+              <span className='bg-[#00758F] px-3 rounded-full rounded-tr-none text-white'>
+                MySql
+              </span>
+              <span className='bg-[#9179FF] px-3 rounded-full rounded-tr-none text-white'>
+                Strapi
+              </span>
+              <span className='bg-[#685FFF] px-3 rounded-full rounded-tr-none text-white'>
+                Stripe
+              </span>
             </div>
           </motion.div>
 
