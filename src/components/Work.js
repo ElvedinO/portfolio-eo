@@ -55,28 +55,28 @@ const Work = () => {
               src={Img1}
               alt=''
             />
-            <div className='absolute bottom-24 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-28 lg:transition-all lg:duration-500 z-40'>
+            <div className='absolute bottom-20 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-28 lg:transition-all lg:duration-500 z-40'>
               <span className='text-gradient'>Organic Store</span>
             </div>
-            <div className='absolute bottom-16 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-20 lg:transition-all lg:duration-700 z-40'>
+            <div className='absolute bottom-12 lg:-bottom-full left-2 lg:left-12 lg:group-hover:bottom-20 lg:transition-all lg:duration-700 z-40'>
               <span className='text-3xl text-white'>E-Commerce</span>
             </div>
-            <div className=' absolute bottom-3 lg:-bottom-full left-2 lg:left-12  lg:gap-4 lg:group-hover:bottom-7 lg:transition-all lg:duration-1000 z-40 flex gap-2'>
-              <span className='bg-[#58C4DC] px-3 lg:px-4 rounded-full rounded-tr-none text-white'>
+            <div className=' absolute bottom-6 lg:-bottom-full left-2 lg:left-12 gap-1 lg:gap-2 lg:group-hover:bottom-10 lg:transition-all lg:duration-1000 z-40 flex lg:text-base text-sm'>
+              <div className='bg-[#58C4DC] px-3 lg:px-4 rounded-full rounded-tr-none text-white'>
                 React
-              </span>
-              <span className='bg-[#CE6B9C] px-3 rounded-full rounded-tr-none text-white'>
+              </div>
+              <div className='bg-[#CE6B9C] px-3 rounded-full rounded-tr-none text-white'>
                 Sass
-              </span>
-              <span className='bg-[#00758F] px-3 rounded-full rounded-tr-none text-white'>
+              </div>
+              <div className='bg-[#00758F] px-3 rounded-full rounded-tr-none text-white'>
                 MySql
-              </span>
-              <span className='bg-[#9179FF] px-3 rounded-full rounded-tr-none text-white'>
+              </div>
+              <div className='bg-[#9179FF] px-3 rounded-full rounded-tr-none text-white'>
                 Strapi
-              </span>
-              <span className='bg-[#685FFF] px-3 rounded-full rounded-tr-none text-white'>
+              </div>
+              <div className='bg-[#685FFF] px-3 rounded-full rounded-tr-none text-white'>
                 Stripe
-              </span>
+              </div>
             </div>
           </motion.div>
 
