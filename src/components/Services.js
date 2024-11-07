@@ -23,12 +23,12 @@ const services = [
       'With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating responsive and interactive websites. From landing pages to web applications.',
     link: 'https://www.w3schools.com/whatis/whatis_frontenddev.asp',
   },
-  {
-    name: 'UI/UX Design',
-    description:
-      'I design attractive, intuitive interfaces with Tailwind CSS and Bootstrap. My goal is to create engaging user experiences. I prioritize both aesthetics and usability.',
-    link: 'https://www.figma.com/resource-library/difference-between-ui-and-ux/',
-  },
+  // {
+  //   name: 'UI/UX Design',
+  //   description:
+  //     'I design attractive, intuitive interfaces with Tailwind CSS and Bootstrap. My goal is to create engaging user experiences. I prioritize both aesthetics and usability.',
+  //   link: 'https://www.figma.com/resource-library/difference-between-ui-and-ux/',
+  // },
   {
     name: 'Performance Optimization',
     description:
@@ -101,21 +101,21 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.3 }}
-            className='flex-1'
+            className='flex-1 flex  items-center'
           >
             <div>
               {services.map((service, index) => {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className='border-b border-white/20 h-[146px] mb-[38px] flex'
+                    className='border-b border-white/10 mb-8 flex rounded-xl'
                     key={index}
                   >
-                    <div className='max-w-[476px]'>
+                    <div className='max-w-[476px] p-1'>
                       <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>
                         {name}
                       </h4>
-                      <p className='font-secondary leading-tight'>
+                      <p className='font-secondary leading-tight mb-4'>
                         {description}
                       </p>
                     </div>

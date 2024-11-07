@@ -61,7 +61,7 @@ const About = () => {
                   Completed
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={10} duration={5} /> : null}+
                 </div>
@@ -69,7 +69,7 @@ const About = () => {
                   Satisfied <br />
                   Clients
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
