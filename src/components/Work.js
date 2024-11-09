@@ -31,7 +31,7 @@ const Work = () => {
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-8'>
+            <p className='max-w-sm mb-8 text-xl tracking-wider'>
               Here are a few highlights of my recent projects, showcasing my
               skills and expertise in web development.
             </p>

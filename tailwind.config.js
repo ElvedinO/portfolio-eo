@@ -26,7 +26,7 @@ module.exports = {
       backgroundImage: {
         preloader: "url('./assets/preloader-bg.jpg')",
         site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.jpg')",
+        about: "url('./assets/about.webp')",
         services: "url('./assets/services.png')",
       },
     },

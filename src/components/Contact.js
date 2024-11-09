@@ -58,7 +58,7 @@ const Contact = () => {
           >
             <div>
               <h1 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>
-                Get in touch
+                Get in touch.
               </h1>
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12 font-test'>
                 Let's work <br /> together!

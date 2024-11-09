@@ -112,10 +112,10 @@ const Services = () => {
                     key={index}
                   >
                     <div className='max-w-[476px] p-1'>
-                      <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>
+                      <h4 className='text-xl tracking-wider font-primary font-semibold mb-3'>
                         {name}
                       </h4>
-                      <p className='font-secondary leading-tight mb-4'>
+                      <p className='font-secondary leading-tight tracking-wider lg:text-xl mb-4'>
                         {description}
                       </p>
                     </div>

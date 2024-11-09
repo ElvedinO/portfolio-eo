@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../assets/hero.jpg';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
@@ -30,7 +30,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
-              className='mb-6 flex justify-center text-[36px] lg:text-[60px]  font-secondary font-semibold uppercase leading-[1]'
+              className='mb-6 flex justify-center lg:justify-start text-[36px] lg:text-[60px]  font-secondary font-semibold uppercase leading-[1]'
             >
               <span className='mr-4 text-white'>I am a</span>
               <div className='flex text-accent'>
@@ -55,7 +55,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0'
+              className='mb-8 lg:text-xl lg:tracking-wider max-w-lg mx-auto lg:mx-0'
             >
               Empowering businesses with code and creativity
               <br />
@@ -107,7 +107,7 @@ const Banner = () => {
                 alt='twitter'
                 aria-label='Read more about Elvedin on Twitter'
               >
-                <FaTwitter />
+                <FaXTwitter />
               </a>
             </motion.div>
           </div>
