@@ -33,7 +33,7 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About me.</h2>
 
-            <p className=' mb-8 font-primary tracking-widest'>
+            <p className='font-primary tracking-widest'>
               Hello! I'm Elvedin, a dedicated web developer based in Munich,
               Germany.
               <br />
@@ -42,7 +42,7 @@ const About = () => {
               specialize in crafting sleek and functional websites. My primary
               goal is to enhance your online presence.
             </p>
-            <div className='flex gap-x-6 lg:gap-x-10 mt-2 justify-center text-center'>
+            <div className='flex mt-6 lg:mt-8 gap-x-6 lg:gap-x-10 justify-center text-center'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={3} duration={5} /> : null}+
