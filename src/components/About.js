@@ -42,7 +42,7 @@ const About = () => {
               specialize in crafting sleek and functional websites. My primary
               goal is to enhance your online presence.
             </p>
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center text-center'>
+            <div className='flex gap-x-6 lg:gap-x-10 mt-2 justify-center text-center'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={3} duration={5} /> : null}+

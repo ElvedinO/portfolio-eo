@@ -297,7 +297,7 @@ input:-webkit-autofill {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
   }
   .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary font-semibold text-xl lg:text-[26px]   mb-6 leading-normal lg:leading-[46px];
   }
   .btn {
     @apply rounded-full rounded-tr-none font-primary text-white font-medium;

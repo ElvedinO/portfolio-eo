@@ -44,7 +44,7 @@ const services = [
 ];
 
 // Tooltip component
-const Tooltip = ({ children, text }) => (
+export const Tooltip = ({ children, text }) => (
   <div className='relative group'>
     {children}
     <span className='absolute opacity-0 left-9 -top-1 tracking-wider  -translate-x-1/2 group-hover:opacity-100 group-hover:text-white group-hover:text-base font-secondary group-hover:-translate-y-4 duration-500'>
@@ -67,7 +67,7 @@ const Services = () => {
             className='flex-1 mb-12 lg:mb-0'
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-            <h3 className='h3 max-w-[455px] mb-16'>
+            <h3 className='h3 max-w-[455px] lg:mb-16'>
               Crafting custom web apps using modern tools like React and
               Tailwind CSS.
             </h3>

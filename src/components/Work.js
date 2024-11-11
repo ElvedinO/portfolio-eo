@@ -35,7 +35,9 @@ const Work = () => {
               Here are a few highlights of my recent projects, showcasing my
               skills and expertise in web development.
             </p>
-            <button className='btn btn-sm'>View all projects</button>
+            <button className='btn btn-sm cursor-not-allowed'>
+              View all projects
+            </button>
           </motion.div>
 
           {/* First row, second column: First image */}

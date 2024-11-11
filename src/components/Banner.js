@@ -21,7 +21,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[110px] '
+              className='text-[55px] mb-2 font-bold leading-[0.8] lg:text-[110px] '
             >
               ELVEDIN <span>ODOBASIC</span>
             </motion.h1>
@@ -30,9 +30,9 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
-              className='mb-6 flex justify-center lg:justify-start text-[36px] lg:text-[60px]  font-secondary font-semibold uppercase leading-[1]'
+              className='mb-6 flex justify-center lg:justify-start lg:text-5xl font-secondary font-semibold uppercase leading-[1]'
             >
-              <span className='mr-4 text-white'>I am a</span>
+              <span className='mr-1 lg:mr-3 text-white'>I am a</span>
               <div className='flex text-accent'>
                 {Letters.map((letter, index) => (
                   <Animation
