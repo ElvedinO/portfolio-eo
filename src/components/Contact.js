@@ -129,7 +129,7 @@ const Contact = () => {
                 exit={{ opacity: 0 }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className='popup-message '
+                className='popup-message min-w-[95%] lg:min-w-fit'
               >
                 {successMessage}
               </motion.div>
