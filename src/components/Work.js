@@ -88,7 +88,7 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.3 }}
-            className='group relative overflow-hidden border-b-2 border-white/20   rounded-3xl  rounded-tr-none'
+            className='group relative overflow-hidden border-b-2 border-white/20  rounded-3xl  rounded-tr-none'
           >
             <div className='group-hover:bg-black/70  w-full h-full absolute z-30 transition-all duration-300'></div>
             <img

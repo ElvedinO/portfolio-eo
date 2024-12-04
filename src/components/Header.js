@@ -5,7 +5,7 @@ import Logo from '../assets/V.png';
 
 const Header = () => {
   return (
-    <header className='py-8'>
+    <header className='py-8' id='home'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo*/}

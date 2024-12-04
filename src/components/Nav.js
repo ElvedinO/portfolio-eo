@@ -17,7 +17,6 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            offset={-200}
             aria-label='This goes to Home page'
             className='cursor-pointer h-[40px] flex items-center justify-center'
           >

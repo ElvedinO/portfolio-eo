@@ -66,7 +66,7 @@ const Services = () => {
             className='flex-1 mb-12 lg:mb-0'
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-            <h3 className='h3 max-w-[455px] lg:mb-16'>
+            <h3 className='max-w-sm mb-8 text-xl tracking-wider'>
               Crafting custom web apps using modern tools like React and
               Tailwind CSS.
             </h3>
