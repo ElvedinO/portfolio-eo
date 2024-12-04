@@ -38,9 +38,9 @@ const About = () => {
               Germany.
               <br />
               <br />
-              With expertise in both front-end and back-end development, I
-              specialize in crafting sleek and functional websites. My primary
-              goal is to enhance your online presence.
+              With expertise in front-end development, I specialize in crafting
+              sleek and functional websites. My primary goal is to enhance your
+              online presence.
             </p>
             <div className='flex mt-6 lg:mt-8 gap-x-6 lg:gap-x-10 justify-center text-center'>
               <div>

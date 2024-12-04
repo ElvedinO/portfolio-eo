@@ -1,6 +1,5 @@
 import React from 'react';
 // icon imports
-import { BsArrowUpRight } from 'react-icons/bs';
 import {
   FaReact,
   FaCss3Alt,
@@ -105,7 +104,7 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name, description, link } = service;
+                const { name, description } = service;
                 return (
                   <div
                     className='border-b border-white/10 mb-8 flex rounded-xl'
