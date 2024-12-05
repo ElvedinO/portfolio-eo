@@ -27,7 +27,7 @@ const Work = () => {
             viewport={{ once: true, amount: 0.3 }}
             className='mb-10 lg:mb-0'
           >
-            <h2 className='h2 leading-tight text-accent'>
+            <h2 className='h2 leading-tight text-accent my-5'>
               My Latest <br />
               Work.
             </h2>

@@ -65,8 +65,8 @@ const Banner = () => {
               viewport={{ once: true, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
-              <Link href='#' to='contact' smooth={true} spy={true}>
-                <button className='btn btn-lg'>Contact me</button>
+              <Link href='#' to='work' smooth={true} spy={true}>
+                <button className='btn btn-lg'>See my work</button>
               </Link>
             </motion.div>
             <motion.div

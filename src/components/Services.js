@@ -65,7 +65,7 @@ const Services = () => {
             viewport={{ once: true, amount: 0.3 }}
             className='flex-1 mb-12 lg:mb-0'
           >
-            <h2 className='h2 text-accent mb-6'>What I Do.</h2>
+            <h2 className='h2 text-accent my-5'>What I Do.</h2>
             <h3 className='max-w-sm mb-8 text-xl tracking-wider'>
               Crafting custom web apps using modern tools like React and
               Tailwind CSS.
